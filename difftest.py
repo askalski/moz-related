@@ -121,7 +121,7 @@ for key in keys:
 	v2 = f2d[key]
 	
 	if not res_equal(v1,v2):
-		print 'test results for "' + str(key) + '" differs. Diff'
+		print 'test results for "' + str(key) + '" differ. Diff:'
 		for line in difflib.ndiff(v1,v2):
 			print line,
 		print '\n\n'
