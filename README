@@ -1,0 +1,6 @@
+This repository contains some of the scripts created by Andrzej Skalski while working at Mozilla, that may be useful to other developers.
+
+programs:
+difftest - program compares two outputs of mochitests in order to find if a patch introduces of fixes any bugs. Program takes two arguments - files to compare.
+
+
